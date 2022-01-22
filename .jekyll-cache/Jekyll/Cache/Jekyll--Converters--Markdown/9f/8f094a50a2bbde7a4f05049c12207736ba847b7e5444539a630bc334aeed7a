@@ -1,0 +1,107 @@
+I"�<p>The WTA (Women’s Tennis Association) is the principal organizing body of women’s professional tennis, it governs its own tour worldwide. On its website, it provides a lot of data about the players as individuals as well the tour matches with results and the current rank during it.</p>
+
+<p>The Kaggle Dataset found <a href="https://www.kaggle.com/joaoevangelista/wta-matches-and-rankings">here</a> covers statistics of players registered on the WTA (Womens Tennis Association), the matches that happened on each tour by year, with results, as well some qualifying matches for the tours</p>
+
+<p><strong>Found some interesting analysis on the data covering from 2000 to 2017( a part of it).</strong></p>
+
+<div class="img_row">
+	<img class="col three" src="../../assets/images/womens-tennis/tennisball.jpeg" />
+</div>
+
+<div class="alert alert-success" role="alert">
+ Players domination
+</div>
+
+<ul>
+  <li>There is no complete domination in the years 2017–2003 <strong>except for 2014 and 2015, which was dominated by Serena Williams</strong></li>
+  <li>1984 to 1996 was dominated by Three players Martina Navratilova, Steffi Graf and Monica Seles. 1997 to around 2002 was dominated by Lindsay Davenport and Martina Hingis</li>
+  <li>In the analysis of the years 2000 to 2017( part of it ), Serena has dominated the Grand Slams winning <strong>7 Australian Opens , 3 French Opens , 7 Wimbledons and 5 US Opens</strong></li>
+</ul>
+
+<div class="alert alert-success" role="alert">
+ Winning after losing either the First Or Second Set
+</div>
+
+<ul>
+  <li>
+    <p>The probability of <strong>winning a US Open Final after losing the first set in a Final is Zero</strong>.</p>
+  </li>
+  <li>
+    <p>The probability of <strong>winning a French Open Final after losing the first set in a Final is 5 %</strong>. Only Once this has happened when Jennifer Capriati defeated Kim Clijsters in 2001</p>
+  </li>
+  <li>
+    <p>The probability of <strong>winning a Australian Open Final after losing the first set in a Final is 22%.</strong></p>
+  </li>
+  <li>
+    <p>The probability of <strong>winning a Wimbledon Final after losing the first set in a Final is 17%.</strong></p>
+  </li>
+  <li>
+    <p>The probability of winning after losing the First Set across all matches is 16%</p>
+  </li>
+  <li>
+    <p>The probability of winning after losing the Second Set across all matches is 14%</p>
+  </li>
+</ul>
+
+<div class="alert alert-success" role="alert">
+ Surface Analysis
+</div>
+
+<p>During the period 2000–2017 ( part of the data of 2017 is present) , the following observations are made</p>
+
+<ul>
+  <li>
+    <p>Williams sisters occupy the 1st and 2nd spots in the winners list
+Considering all surfaces , Russians , Americans and French have won the most matches</p>
+  </li>
+  <li>
+    <p>On the Hard surface, Russians, Americans and French occupy the top Three positions</p>
+  </li>
+  <li>
+    <p>On the <strong>Clay</strong> surface, Russians, <strong>Spanish</strong> and Americans occupy the top Three positions</p>
+  </li>
+  <li>
+    <p>On the <strong>Grass</strong> surface, Americans,Russians and <strong>Australians</strong> and occupy the top Three positions</p>
+  </li>
+  <li>
+    <p>On the Carpet surface, Russians, French and Americans occupy the top Three positions</p>
+  </li>
+</ul>
+
+<div class="alert alert-success" role="alert">
+ Tournament Level Analysis
+</div>
+
+<p>We investigate the Top Winners in the different Tournament Levels</p>
+
+<ul>
+  <li>
+    <p><strong>Williams sisters and Maria Sharapova</strong>  occupy the Top Three spots in Grand Slams</p>
+  </li>
+  <li>
+    <p>Elena Dementieva , Justin Henin and Martina Hingis occupy the Top Three spots in T1 tournaments. The T1 tournaments with the most matches are Miami, Indian Wells and Rome</p>
+  </li>
+  <li>
+    <p>Amelie Mauresmo , Lindsay Davenport and Kim Clijsters occupy the Top Three spots in T2 tournaments.The T2 tournaments with the most matches are Amelia Island, Los Angeles and Sydney</p>
+  </li>
+</ul>
+
+<div class="alert alert-success" role="alert">
+ Upset Level Analysis
+</div>
+
+<p>We could consider an upset if the winner rank is greater than the loser rank by at least 10. We plot the ranking difference between winners and losers for the grand slams.</p>
+
+<ul>
+  <li>
+    <p>We observe that the upsets are few in Grand Slams Finals. But some of them are there and lets find out what they are.Venus Williams has created Two upsets in Grand Slam Finals.2017 saw an upset in the US Open when Sloane Stephens defeated Venus Williams in the semifinals and Madison Keys in the finals.</p>
+  </li>
+  <li>
+    <p>Kim Clijsters and Daniela Hantuchova has created 2 upsets in T1 tournament finals</p>
+  </li>
+  <li>
+    <p>Chanda Rubin has created 2 upsets in T2 tournament finals</p>
+  </li>
+</ul>
+
+:ET

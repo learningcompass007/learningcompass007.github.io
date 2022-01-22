@@ -1,0 +1,48 @@
+I"P<p>Population data has a mean of \(\mu\) and standard deviation \(\sigma\).<br />
+Sample data has a mean of \(\bar x\) and standard deviation of <strong>s</strong>.</p>
+
+<p>What is the average starting salary of all computer science  students who finished their engineering last year in Karnataka, a state in India which has a lot of engineering colleges?</p>
+
+<h2 id="population">Population</h2>
+
+<p>all computer science  students who finished their engineering last year in Karnataka.</p>
+
+<p>Mean salary = \(\mu\) and Standard deviation salary  = \(\sigma\)</p>
+
+<h2 id="sample">Sample</h2>
+
+<p>sample of all computer science  students who finished their engineering last year in Karnataka.</p>
+
+<p>Mean salary = \(\bar x\) and Standard deviation salary  = <strong>s</strong></p>
+
+<h2 id="central-limit-theorem">Central Limit Theorem</h2>
+
+<p>Consider a random sample of n observations from a  population with mean \(\mu\) and standard deviation \(\sigma\).</p>
+
+<p>Let \(\bar x\) be the sample mean. The <strong>distribution</strong> of \(\bar x\) is approximately <strong>Normal</strong> with mean = \(\mu\) and standard deviation <strong>s</strong> = \(\sigma\) / \(\sqrt{n}\)</p>
+
+<h3 id="example">Example</h3>
+
+<p>all computer science  students who finished their engineering last year in Karnataka.</p>
+
+<p>Mean salary = \(\mu\) = INR 500,000 and Standard deviation salary  = \(\sigma\)  = INR 20,000</p>
+
+<hr />
+
+<p>We survey a sample of 50 students and below is their salary.</p>
+
+<hr />
+
+<p>Sample 1 Mean Salary = INR 490,000 and Standard deviation salary  = s = INR 10,000</p>
+
+<p>Sample 2 Mean Salary = INR 510,000 and Standard deviation salary  = s  = INR 18,000</p>
+
+<p>Sample 3 Mean Salary = INR 480,000 and Standard deviation salary  = s  = INR 15,000</p>
+
+<p>Sample 4 Mean Salary = INR 520,000 and Standard deviation salary  = s  = INR 20,000</p>
+
+<hr />
+
+<p>The sample salary follows a normal distribution  with mean = \(\bar x\) = \(\mu\) = INR 500,000 and standard deviation <strong>s</strong> = \(\sigma\) / \(\sqrt{n}\)  = INR 20,000/\(\sqrt{50}\) since the number of students in each sample is 50.</p>
+
+:ET

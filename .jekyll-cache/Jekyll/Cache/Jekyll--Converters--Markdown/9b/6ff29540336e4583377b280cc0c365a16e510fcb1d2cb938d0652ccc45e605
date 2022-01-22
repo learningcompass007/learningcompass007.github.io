@@ -1,0 +1,24 @@
+I"[<p>Z and t statistic are one of the most important building blocks in statistics. This information will help us to understand <strong>confidence intervals</strong>.</p>
+
+<p>Before we go into Z and t statistic , let us revise the previous concepts of Central Limit Theorem.</p>
+
+<h2 id="central-limit-theorem">Central Limit Theorem</h2>
+
+<p>Consider a random sample of n observations from a  population with mean \(\mu\) and standard deviation \(\sigma\).</p>
+
+<p>Let \(\bar x\) be the sample mean. The <strong>distribution</strong> of \(\bar x\) is approximately <strong>Normal</strong> with mean = \(\mu\) and standard deviation <strong>s</strong> = \(\sigma\) \ \(\sqrt{n}\)</p>
+
+<p>All normal distributions can be converted into standard normal distribution by subtracting the mean and dividing by the standard deviation.</p>
+
+<p>Z = (X - \(\mu\)) / \(\sigma\) \ \(\sqrt{n}\)</p>
+
+<h3 id="confidence-interval">Confidence Interval</h3>
+
+<p>We want to have the confidence interval of the population but in all practical cases we would have the data for the sample. We would know the sample mean and the sample standard deviation.</p>
+
+<p>Z = (X - \(\mu\)) / \(\sigma\) \ \(\sqrt{n}\).</p>
+
+<p>Here \(\sigma\) is the population mean, which might not be available in all practical cases. The sample standard deviation <strong>s</strong> is available in all cases. Therefore if we replace the \(\sigma\) with <strong>s</strong> in the above formula , we would get a <strong>t distribution with n-1 degrees of freedom</strong>.</p>
+
+<p>t ( <em>n-1 degrees of freedom</em> ) = (X - \(\mu\)) / <strong>s</strong> / \(\sqrt{n}\)</p>
+:ET

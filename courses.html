@@ -1,0 +1,41 @@
+---
+title: Courses
+layout: default
+bodyClass: page-services-list
+---
+
+<div class="intro">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1>Learning Compass Courses</h1>
+        <p>
+          <b>
+            Empowering institutions and organizations with 
+            Knowledge for making better business decisions
+          </b>
+        </p>
+      </div>
+     </div>
+  </div>
+</div>
+
+<br/>
+
+<div class="container pb-6">
+  <div class="row">
+    {% assign sorted_courses = site.courses | sort:"num" %}
+    {% for course in sorted_courses %}
+    <div class="col-12 col-md-4 mb-2">
+      <div class="service service-summary">
+        <div class="feature bg-light">
+         
+          <a href="{{site.baseurl}}{{ course.url }}">{{ course.title }}</a>
+          
+          {{ course.content | markdownify | strip_html | truncate: 100 }}
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>

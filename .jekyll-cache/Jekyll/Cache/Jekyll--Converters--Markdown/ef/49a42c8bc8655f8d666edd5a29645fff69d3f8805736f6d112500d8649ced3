@@ -1,0 +1,67 @@
+I"0<p>We first understand the concept of <strong>Independent Events</strong> and <strong>Dependent Events</strong></p>
+
+<h2 id="independent-events">Independent Events</h2>
+
+<p>Events are <strong>Independent</strong>, when each event is NOT affected by any other events.</p>
+
+<p>Example : A coin toss. The first coin toss event is completely independent of the second coin toss event</p>
+
+<h2 id="dependent-events">Dependent Events</h2>
+
+<p>Events are <strong>Dependent</strong>, meaning each event is affected by any other events.</p>
+
+<p>Example : Suppose we have 2 red balls and 3 green balls in a bag.</p>
+
+<p><img src="../../assets/images/conditional-probablity/2red3green.jpg" /></p>
+
+<p>What is the probablity that we have picked a green ball after we have picked a red ball ? In this case, we are <strong>not putting the ball in the bag</strong> after we have picked the ball</p>
+
+<p><img src="../../assets/images/conditional-probablity/OneRedThreeGreen.jpg" /></p>
+
+<p>Event A : Probablity that you picked a red ball = 2/5<br />
+Event B : Probablity that you picked a green ball = 3/4</p>
+
+<p>The probablity that we have picked the green ball after we have picked the red ball is 2/5*3/4 =6/20</p>
+
+<p>Mathematically , this can be represented as<br />
+<strong>P( A and B ) = P(A) * P(B | A)</strong></p>
+
+<p>The <strong>P(B | A)</strong> denotes the probablity of B given event A has occurred. The symbol | denotes given.</p>
+
+<p>More formally , P(A $ \cap $ B ) =  P(A) * P(B | A)</p>
+
+<hr />
+
+<p>Consider another scenario where we are putting the ball back in the bag.</p>
+
+<p>In this case, this is NOT a <strong>Dependent Event</strong></p>
+
+<p>Event A1 : Probablity that you picked a red ball = 2/5<br />
+Event B1 : Probablity that you picked a green ball = 3/5</p>
+
+<p>The probablity that we have picked the green ball after we have picked the red ball is 2/5*3/5 =6/25</p>
+
+<h2 id="properties-of-independent-events">Properties of Independent Events</h2>
+
+<p>We saw the above example of an Independent event. Mathematically , this can be formulated as below:</p>
+
+<ol>
+  <li>P(A | B ) = P(A)</li>
+  <li>P(B | A ) = P(B)</li>
+  <li>P(A $ \cap $ B ) = P(A) * P(B)</li>
+</ol>
+
+<h2 id="bayes-theorem">Bayes Theorem</h2>
+
+<p>The probability of two events A and B happening, P(A$ \cap $ B), is the probability of A, P(A), times the probability of B given that A has occurred, P(B | A).</p>
+
+<p>P(A $ \cap $ B) = P(A)P(B|A) - Equation (1)</p>
+
+<p>On the other hand, the probability of A and B is also equal to the probability of B times the probability of A given B.<br />
+P(A $ \cap $ B) = P(B)P(A|B) - Equation (2)</p>
+
+<p>P(B)P(A|B) = P(A)P(B|A)  - Equation (3)</p>
+
+<p>P(A|B) = P(A)P(B|A) / P(B) - Equation (4)<br />
+Therefore the probablity of A given B  is equal to the Probablity of A times the Probablity of B given A divided by the probablity of A</p>
+:ET

@@ -1,0 +1,50 @@
+baseurl: ''
+exclude: ['README.md']
+permalink: pretty
+title: 'Learning Compass'
+email: 'myemail@learningcompass.co.uk'
+
+collections:
+  courses:
+    output: true
+    permalink: /courses/:path/
+  posts:
+    output: true
+    permalink: /posts/:path/
+  team:
+    output: true
+    permalink: /team/:path/
+  workshops:
+    output: true
+    permalink: /workshops/:path/
+  testimonials:
+      output: true
+      permalink: /testimonials/:path/
+
+
+# How many posts in a page
+paginate: 5
+paginate_path: blog/page:num/
+
+defaults:
+  - scope:
+      type: courses
+    values:
+      layout: service
+      bodyClass: page-services-single
+  - scope:
+      path: 'images'
+    values:
+      image: true
+
+sass:
+  style: compact # possible values: nested expanded compact compressed
+
+google_analytics_id: UA-171632406-1
+
+plugins:
+  - jekyll-environment-variables
+  
+markdown: kramdown
+kramdown:
+   math_engine: mathjax
