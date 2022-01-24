@@ -1,22 +1,50 @@
 ---
 title: Contact
-layout: contact
-description: Contact
+layout: default
+bodyClass: page-contact
 ---
 
-<!-- modify this form HTML and place wherever you want your form -->
-<form
-  action="https://formspree.io/f/xayvqkrg"
-  method="POST"
->
-  <label>
-    Your email:
-    <input type="email" name="_replyto">
-  </label>
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label>
-  <!-- your other form fields go here -->
-  <button type="submit">Send</button>
-</form>
+<form id="contact-form" method="post" action="https://formspree.io/f/xayvqkrg">
+    <div class="intro intro-small">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1>Contact</h1>
+          </div>
+          <div class="row">
+            <ul>
+              <div class="container">
+                <div class="opens">
+                  <input type="text" name="name" id = "name-input" placeholder="First and Last Name" required="">
+                </div>
+                <br/>
+                  <div class="opens">
+                  <input type="email" name="email" id = "email-input" placeholder="Your email" width="50%" required = "" >
+                  </div>
+                  <br/>
+                  <div class="opens">
+                    <input type="message" name="phone" id = "phone-input" placeholder="Your phone" width="50%" >
+                  </div>
+                  <br/>
+                  <div class="opens">
+                    <input type="text" name="company"  id = "company-input" placeholder="Institution/Company" required="">
+                  </div>
+                  <br/>
+                  <div class="opens">
+                  <textarea name="message" id = "message-input" placeholder="Your message" rows="4" cols="50"></textarea>
+                  </div>
+               
+                  <div class="call-box-bottom">
+                  <button type="submit" class="button" >Send</button> 
+                  </div>
+                
+                </div>
+                
+            </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </form>
+    
