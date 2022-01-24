@@ -1,4 +1,4 @@
-url: "http://learningcompass.co.uk"
+baseurl: ''
 exclude: ['README.md']
 permalink: pretty
 title: 'Learning Compass'
