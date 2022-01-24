@@ -1,9 +1,11 @@
 ---
 title: Contact
-layout: default
-bodyClass: page-contact
+layout: contact
+description: Contact
 ---
 
-# Contact Us
+Thank you for contacting us.
 
-Thank you for contacting us. Please email us here.       
+Please email us with your Name , Contact Number , Preferred Time of Calling if any to our email address .
+
+
