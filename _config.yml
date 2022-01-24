@@ -15,12 +15,6 @@ collections:
   team:
     output: true
     permalink: /team/:path/
-  workshops:
-    output: true
-    permalink: /workshops/:path/
-  testimonials:
-      output: true
-      permalink: /testimonials/:path/
 
 
 # How many posts in a page
