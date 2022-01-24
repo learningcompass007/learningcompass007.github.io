@@ -4,6 +4,7 @@ permalink: pretty
 title: 'Learning Compass'
 email: 'myemail@learningcompass.co.uk'
 
+
 collections:
   courses:
     output: true
