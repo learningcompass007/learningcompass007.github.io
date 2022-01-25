@@ -10,9 +10,9 @@ function loadScriptAsync(scriptSrc, callback) {
 }
 
 /* This is the part where you call the above defined function and "call back" your code which gets executed after the script has loaded */
-loadScriptAsync('https://www.googletagmanager.com/gtag/js?id={#YOUR-TRACKING-ID}', function(){
+loadScriptAsync('https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics_id }}', function(){
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    gtag('config', '{#YOUR-TRACKING-ID}', { 'anonymize_ip': true });
+    gtag('config', '{{ site.google_analytics_id }}', { 'anonymize_ip': true });
 })
