@@ -2,7 +2,7 @@ baseurl: ''
 exclude: ['README.md']
 permalink: pretty
 title: 'Learning Compass'
-email: 'myemail@learningcompass.co.uk'
+email: 'connect@learningcompass.co.uk'
 
 
 collections:
