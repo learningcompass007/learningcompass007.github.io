@@ -9,9 +9,10 @@
 </head>
 <body class='page {{page.bodyClass}}'>
   {% include main-menu-mobile.html %}
-  {% include cookie-consent.html %}
+  
   <div id="wrapper" class="wrapper">
     {% include header.html headerClass='header-extra' %}
+    {% include cookie-consent.html %}
     {{content}}
   </div>
   
