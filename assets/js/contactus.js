@@ -1,6 +1,6 @@
 function submitToAPI(e) {
        e.preventDefault();
-       var URL = "https://8fqfwgdy5c.execute-api.us-east-1.amazonaws.com/PROD/contact-us";
+       var URL = "https://rlf7zqx5m8.execute-api.ap-south-1.amazonaws.com/PROD";
 
             var Namere = /[A-Za-z]{1}[A-Za-z]/;
             if (!Namere.test($("#name-input").val())) {
@@ -33,18 +33,18 @@ function submitToAPI(e) {
        var phone = $("#phone-input").val();
        var email = $("#email-input").val();
        var company = $("#company-input").val();
-       var msg = $("#message-input").val();
+       var message_input = $("#message-input").val();
        var data = {
           name : name,
           phone : phone,
           email : email,
           company : company,
-          msg : msg
+          message_input : message_input
         };
 
        $.ajax({
          type: "POST",
-         url : "https://8fqfwgdy5c.execute-api.us-east-1.amazonaws.com/PROD/contact-us",
+         url : "https://rlf7zqx5m8.execute-api.ap-south-1.amazonaws.com/PROD",
          dataType: "json",
          crossDomain: "true",
          contentType: "application/json; charset=utf-8",
@@ -57,6 +57,7 @@ function submitToAPI(e) {
          },
          error: function () {
            // show an error message
+
            alert("UnSuccessfull");
          }});
      }
